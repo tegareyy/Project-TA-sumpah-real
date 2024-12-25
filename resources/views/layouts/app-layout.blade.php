@@ -11,6 +11,7 @@
         @include('includes.navbar')
         @include('includes.sidebar')
 
+        {{-- content => index --}}
         <div class="content-wrapper">
             @yield('content')
         </div>

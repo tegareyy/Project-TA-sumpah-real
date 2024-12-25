@@ -9,15 +9,15 @@
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown user user-menu">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+            {{-- <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                 <img src="https://ui-avatars.com/api/?name=Udin" class="user-image img-circle" alt="User Image">
                 <span class="hidden-xs">Udin</span>
-            </a>
-            {{-- <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+            </a> --}}
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
                 <img src="https://ui-avatars.com/api/?name={{ request()->session()->get('user')['name'] }}"
                     class="user-image img-circle" alt="User Image">
                 <span class="hidden-xs">{{ request()->session()->get('user')['name'] }}</span>
-            </a> --}}
+            </a>
             <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right border-0">
                 {{-- <a href="/changepass" class="dropdown-item">
                     <i class="fas fa-lock mr-2"></i> Ganti Password
