@@ -37,5 +37,16 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('456'), // Password terenkripsi
             'role' => 'Teacher'
         ]);
+
+        User::create([
+            'name' => 'Dicky Darmawan',
+            'email' => 'Dicky@gmail.com',
+            'uid' => '789',
+            'gender' => 'female',
+            'address' => 'Tiban McDermott RT 01 RW 05',
+            'email_verified_at' => now(),
+            'password' => Hash::make('789'),
+            'role' => 'Student'
+        ]);
     }
 }
