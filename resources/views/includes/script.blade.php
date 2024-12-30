@@ -78,3 +78,5 @@
         $('#date-range').daterangepicker()
     });
 </script>
+{{-- my Script --}}
+<script src="dist/js/script.js"></script>

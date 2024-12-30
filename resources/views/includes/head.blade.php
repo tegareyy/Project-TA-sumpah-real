@@ -10,7 +10,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ url('/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ url('/site.webmanifest') }}">
 
-    <link rel="stylesheet" href="{{ url('/style.css') }}">
+    <link rel="stylesheet" href="{{ url('dist/css/style.css') }}">
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">

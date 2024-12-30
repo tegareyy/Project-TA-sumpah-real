@@ -15,7 +15,7 @@ class UserController extends Controller
     public function index()
     {
         $items = User::all();
-        $list_level = ['SuperAdmin', 'Teacher'];
+        $list_level = ['SuperAdmin', 'Teacher', 'Student'];
         $list_gender = ['Laki Laki', 'Perempuan'];
 
         return view('pages.user.index', [

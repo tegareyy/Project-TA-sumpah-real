@@ -2,8 +2,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/" class="brand-link">
-        <img src="../img/logo/images.png" alt="Logos" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-bold mx-3">SIMANDALAS</span>
+        <img src="../img/logo/sman12.png" alt="Logos" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <h3><span class="brand-text font-weight-bold mx-1">SIMANDALAS</span></h3>
     </a>
 
     <!-- Sidebar -->
