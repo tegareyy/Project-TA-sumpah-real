@@ -1,4 +1,4 @@
-@extends('layouts.app-layout') 
+@extends('layouts.app-layout')
 @section('content')
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -23,14 +23,14 @@
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#formCreate"><i
                                     class="fa fa-plus"></i> Tambah</a>
                             @include('pages.user.create')
-                            <table id="defaultTable" class="table table-bordered table-striped">
+                            <table id="defaultTable" class="table table-bordered table-striped text-center">
                                 <thead>
                                     <tr>
                                         <th>No</th>
                                         <th>Nama</th>
                                         <th>Email</th>
                                         <th>Username</th>
-                                       
+
                                         <th>Level</th>
                                         <th>Aksi</th>
                                     </tr>
@@ -46,7 +46,7 @@
                                             <td>{{ $item->email }}</td>
                                             <td>{{ $item->uid }}</td>
                                             <td>{{ $item->role }}</td>
-                                            <td>
+                                            <td class="d-flex gap-3 justify-content-center">
                                                 <form id="formDelete{{ $item->id }}"
                                                     action="{{ route('user.destroy', $item->id) }}" method="POST"
                                                     class="d-inline">
